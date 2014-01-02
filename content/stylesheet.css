@@ -4,13 +4,14 @@
     }
 
     .picture { 
+      display: inline-block;
       background-color: white;
       border: 0px solid #CCCCCC; 
       padding: 3px;
       font: 12px/1.4em Arial, sans-serif; 
       color: white;  
       width: 85px; 
-      float: left;
+      
     }
 
     .picture img { border: 1px solid #CCCCCC;
