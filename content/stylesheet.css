@@ -50,11 +50,18 @@
       color: red;
       font-size: 180%;
       margin: 0px;
+      text-align: left;
+    }
+
+    h5 { 
+      color: black;
+      font-size: 180%;
+      margin: 0px;
       text-align: center;
     }
 
     h3 { 
-      color: #FF9900;
+      color: red;
       font-size: 100%;
       font-weight: bold;
       margin: 0px;
@@ -72,7 +79,7 @@
     }
 
     #nav {
-      width: 200%;
+      width: 100%;
       display: inline-block;
       margin: 2em 0 2em 0;
       padding: 0;
@@ -80,22 +87,21 @@
       background-color: #202020;
       border-bottom: 1px solid #ccc; 
       border-top: 1px solid #ccc; 
-      height: 2.5em;
+      height: 1.8em;
     }
 
     #nav li {
       float: left; 
-      margin: 0.1em;
+      margin: 0.2em;
       list-style: none; 
     }
 
     #nav li a {
 
       display: block;
-      padding: 8px 15px;
+      padding: 2px 15px;
       text-decoration: none;
-      font-weight: bold;
-      font-size: 130%;
+      font-size: 120%;
       color: white;
       border-right: 1px solid #ccc; 
     
@@ -104,7 +110,7 @@
     #nav li ul {
       display: none; 
       width: 10em; 
-      background-color: #202020;
+      background-color: black;
     }
 
     #nav li:hover ul {
@@ -119,23 +125,24 @@
     }
 
     #nav li:hover li a {
-      background-color: red;
-      border-bottom: 1px solid #fff;
-      color: #000; 
+      background-color: black;
+      border-bottom: 1px solid white;
+      color: white; 
     }
 
     #nav li li a:hover {
-      background-color: white; 
+      background-color: white;
+      color: black; 
     }
 
     #images img {
-      border: 5px solid #ccc; 
+      border: 5px solid #202020; 
       margin-top: 0px; 
       float:left; 
     }
 
     #images div:hover {
-      background-color: red;
+      background-color: #202020;
 
     }
 
@@ -173,10 +180,7 @@
       font-size: 60%;
     }
 
-    footer{
-      height: 200%;
-      position: relative;
-    }
+   
 
     #news li {
       padding: 10px;
@@ -188,32 +192,27 @@
 
     }
 
-    .vert_list{
-      font-size: 120%;
-      font-weight: bold;
-      color: #FF9900;
-    }
-
     #stand ul{
       list-style-type: none; 
       margin: auto;
       padding: 0;
       text-align: center;
-      width: 70%;
+      width: 90%;
     }
   
     #stand a{ 
       display: block;
-      color: #FFF;
-      background-color: #FF7148;
+      color: white;
+      background-color: red;
       padding: .2em .8em;
     }
 
     #stand a:hover{
-      background-color: #EC385A;
-      color: #FFF;
+      background-color: white;
+      color: black;
     }
     
     #stand li { 
+      font-size: 120%;
       margin: 0 0 .2em 0; 
     }
