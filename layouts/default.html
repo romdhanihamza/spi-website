@@ -1,16 +1,74 @@
 <!DOCTYPE HTML>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>A Brand New nanoc Site - <%= @item[:title] %></title>
-    <link rel="stylesheet" href="/style.css">
+<head> 
+ <title><%= @item[:title] %></title>
+ <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/en_GB/all.js#xfbml=1&appId=1411763412395259";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+  <div id="header">
+    <h1><a class="nodec" href="/index.html">Socialist Party (India)</a></h1>
+    <div id="logo"><a href="/index.html"><img src="/images/spi_logo2.png" height="200" width="200"/></a></div>
 
-    <!-- you don't need to keep this, but it's cool for stats! -->
-    <meta name="generator" content="nanoc <%= Nanoc::VERSION %>">
-  </head>
-  <body>
-    <div id="main">
-      <%= yield %>
-    </div>
-  </body>
-</html>
+    <div id="images">
+      <div class="picture"><a href="http://en.wikipedia.org/wiki/Jayaprakash_Narayan" target="_blank"><img id="JP" src="/images/Jayaprakash_Narayan.jpg" height="90" width="75"/>
+        <br/>Jayaprakash Narayan</a>
+      </div>
+      <div class="picture"><a href="http://en.wikipedia.org/wiki/Bhimrao_Ambedkar" target="_blank"><img id="BA" src="/images/Ambedkar.gif" height="90" width="75"/>
+        <br/>Bhimrao Ambedkar</a>
+      </div>
+        <div class="picture"><a href="http://en.wikipedia.org/wiki/Ram_Manohar_Lohia" target="_blank"><img id="RML" src="/images/Lohia.jpg" height="90" width="75"/>
+          <br/>Ram Manohar Lohia</a></div>
+          <div class="picture"><a href="http://en.wikipedia.org/wiki/Kamaladevi_Chattopadhyay" target="_blank"><img id="KC" src="/images/Kamala_Devi.jpeg" height="90" width="75"/>
+            <br/>Kamala Devi Chattopadhyay</a></div>
+            <div class="picture"><a href="http://en.wikipedia.org/wiki/Mahatma_Gandhi" target="_blank"><img id="MG" src="/images/Gandhi.jpg" height="90" width="75"/>
+              <br/>Mahatma Gandhi</a></div>
+              <div class="picture"><a href="http://en.wikipedia.org/wiki/Narendra_Dev" target="_blank"><img id="ND" src="/images/Narendra_Dev_2.jpg" height="90" width="75"/>
+                <br/>Acharya Narendra Deva</a></div>
+
+              </div>
+            </div>
+
+            <ul id="nav">
+              <li><a href="/index.html">Home</a></li>
+              <li><a href="#">About Us</a><ul>
+                <li><a href="/objectives">Objectives</a></li>
+                <li><a href="/policy">Policy Statement</a></li>
+                <li><a href="/organisation">Organisational Structure</a></li>
+                <li><a href="/membership">Membership</a></li>
+                <li><a href="/committee">Core Commitee</a></li>
+                <li><a href="/history">History</a></li></ul>
+              </li>
+              <li><a href="#">Lok Sabha Elections 2014</a><ul>
+                <li><a href="/manifesto">Election Manifesto</a></li>
+                <li><a href="/candidates">Candidates</a></li></ul>
+              </li>
+              <li><a href="#">Press</a><ul>
+                <li><a href="/press_rel">Press Releases</a></li>
+                <li><a href="/press_cov">Press Coverage</a></li></ul>
+              </li>
+              <li><a href="/events">Events</a></li>
+              <li><a href="/socialism">Socialism in India</a></li>
+              <li><a href="/faqs">FAQs</a>
+                <li><a href="/join_form">Join Us</a></li>
+                <li><a href="/contact_form">Contact</a></li>
+                <li><a href="/donate_form">Donate</a></li>
+              </ul>
+              <%= yield %>
+              <aside class>
+                <h4>For all the latest updates, <a href="https://www.facebook.com/socialistpartyindia" target="_blank">follow us on Facebook</a>:</h4>
+
+                <div class="fb-like" data-href="https://www.facebook.com/socialistpartyindia" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div>
+
+                
+              </aside>
+
+            </body>
+            </html>

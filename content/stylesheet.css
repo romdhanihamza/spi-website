@@ -1,0 +1,188 @@
+    #header {
+      margin: 0;
+      padding:0;
+    }
+
+    .picture { 
+      background-color: white;
+      border: 0px solid #CCCCCC; 
+      padding: 3px;
+      font: 12px/1.4em Arial, sans-serif; 
+      color: white;  
+      width: 85px; 
+      float: left;
+    }
+
+    .picture img { border: 1px solid #CCCCCC;
+      vertical-align:middle; margin-bottom: 3px; 
+    }
+
+    .right { 
+      margin: 0.5em 0pt 0.5em 0.8em; 
+      float:right; 
+    }
+
+    .left { 
+      margin: 0.5em 0.8em 0.5em 0; 
+      float:left; 
+    }
+
+    .picture a {
+      color:white;
+    }
+
+    h1 { 
+      color: red;
+      height: 75px;
+      font-size: 400%;
+      margin: 9px;
+      float: right;
+      width: 800px;
+      padding-right: 150px;
+    }
+
+    .nodec{
+      text-decoration: none;
+      color: inherit;
+    }
+
+    h2 { 
+      color: red;
+      font-size: 180%;
+      margin: 0px;
+      text-align: center;
+    }
+
+    h3 { 
+      color: #FF9900;
+      font-size: 100%;
+      font-weight: bold;
+      margin: 0px;
+    }
+
+    #logo {
+      float: left;
+    }
+
+    #images {
+      padding-left: 300px;
+      padding-right: 300px;
+      width: 600px;
+
+    }
+
+    #nav {
+      width: 200%;
+      display: inline-block;
+      margin: 2em 0 2em 0;
+      padding: 0;
+      list-style: none;
+      background-color: #f2f2f2;
+      border-bottom: 1px solid #ccc; 
+      border-top: 1px solid #ccc; 
+      height: 2.5em;
+    }
+
+    #nav li {
+      float: left; 
+      list-style: none; 
+    }
+
+    #nav li a {
+
+      display: block;
+      padding: 8px 15px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 130%;
+      color: red;
+      border-right: 1px solid #ccc; 
+      text-decoration: none;
+    }
+
+    #nav li ul {
+      display: none; 
+      width: 10em; 
+      background-color: #69f;
+    }
+
+    #nav li:hover ul {
+      display: block;
+      position: absolute;
+      margin: 0;
+      padding: 0; 
+    }
+
+    #nav li:hover li {
+      float: none; 
+    }
+
+    #nav li:hover li a {
+      background-color: red;
+      border-bottom: 1px solid #fff;
+      color: #000; 
+    }
+
+    #nav li li a:hover {
+      background-color: white; 
+    }
+
+    #images img {
+      border: 5px solid #ccc; 
+      margin-top: 0px; 
+      float:left; 
+    }
+
+    #images div:hover {
+      background-color: red;
+
+    }
+
+    #names {
+      float: right;
+    }
+
+    .grid{
+      display: inline-block;
+      padding-top: 5px;
+      font-size: 80%;
+      width: 30%;
+      text-align: justify;
+      vertical-align: top;
+      margin: 0.5em;
+    }
+
+    .page{
+      padding-top: 5px;
+      font-size: 80%;
+      width: 60%;
+      text-align: justify;
+      vertical-align: top;
+      margin: 0.5em;
+
+    }
+
+    aside{
+      vertical-align: top;
+      position: absolute;
+      top: 40px;
+      right: 45px;
+      margin: 20px;
+      width: 10%;
+      font-size: 60%;
+    }
+
+    footer{
+      height: 200%;
+      position: relative;
+    }
+
+    #news li {
+      padding: 10px;
+    }
+
+    #news li a {
+      font-size: 130%;
+      color: red;
+
+    }
