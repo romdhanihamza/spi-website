@@ -145,11 +145,11 @@
     .grid{
       display: inline-block;
       padding-top: 5px;
-      font-size: 80%;
+      font-size: 100%;
       width: 30%;
       text-align: justify;
       vertical-align: top;
-      margin: 0.5em;
+      margin: 1em;
     }
 
     .page{
@@ -185,4 +185,34 @@
       font-size: 130%;
       color: red;
 
+    }
+
+    .vert_list{
+      font-size: 120%;
+      font-weight: bold;
+      color: #FF9900;
+    }
+
+    #stand ul{
+      list-style-type: none; 
+      margin: auto;
+      padding: 0;
+      text-align: center;
+      width: 70%;
+    }
+  
+    #stand a{ 
+      display: block;
+      color: #FFF;
+      background-color: #FF7148;
+      padding: .2em .8em;
+    }
+
+    #stand a:hover{
+      background-color: #EC385A;
+      color: #FFF;
+    }
+    
+    #stand li { 
+      margin: 0 0 .2em 0; 
     }
