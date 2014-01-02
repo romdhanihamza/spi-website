@@ -32,14 +32,12 @@
       color:white;
     }
 
-    h1 { 
+    h1 {
+      display: inline-block; 
       color: red;
       height: 75px;
       font-size: 400%;
       margin: 9px;
-      float: right;
-      width: 800px;
-      padding-right: 150px;
     }
 
     .nodec{
@@ -69,14 +67,15 @@
     }
 
     #logo {
-      float: left;
+      display: inline-block;
+    }
+
+    #container {
+      display: inline-block;
     }
 
     #images {
-      padding-left: 300px;
-      padding-right: 300px;
-      width: 600px;
-
+      padding-left: 1em;
     }
 
     #nav {
